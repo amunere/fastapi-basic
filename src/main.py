@@ -22,7 +22,7 @@ def get_application():
 app = get_application()
 
 
-@app.get("/111")
+@app.get("/")
 async def root():
     return {"message": "main"}
 
