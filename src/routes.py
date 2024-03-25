@@ -1,9 +1,6 @@
-from datetime import time
-from typing import Callable
-from fastapi import APIRouter, Request, Response
+from fastapi import APIRouter
 from src.user import router as user_router
 from src.auth import router as auth_router
-from fastapi.routing import APIRoute
 
 
 def get_apps_router():
